@@ -1,0 +1,69 @@
+[
+	{
+        "id": 0,
+		"name": "Green",
+		"items": [
+			{
+                "id": 1,
+				"name": "Maple Matcha",
+				"caffiene": ["H"],
+				"ingredients": "Cane sugar, Matcha green tea, Natural maple flavouring."
+			},
+			{
+                "id": 2,
+				"name": "Cool Eucalyptus",
+				"caffiene": ["N"],
+				"ingredients": "Currants, Hibiscus, Spearmint, Juniper berries, Green tea, Blueberries, Eucalyptus, Natural peppermint flavouring, Schizandra berries, Natural (juniper berry, plum) flavouring, Natural wintergreen oil."
+			}
+		]
+	},
+	{
+        
+        "id": 3,
+		"name": "Herbal",
+		"items": [
+			{
+                "id": 4,
+                "name": "Organic Cold 911",
+                "caffiene": ["N"],
+                "ingredients": "Organic peppermint, Organic apple, Organic eucalyptus, Organic juniper berries, Organic natural orange oil, Natural flavouring, Natural peppermint oil."
+			},
+			{
+                "id": 5,
+                "name": "Ginger Crystals",
+                "caffiene": ["N"],
+                "ingredients": "Ginger, Crystallized ginger (ginger, sugar, sulfur dioxide), Lemongrass, Honey ginger crystals (cane sugar, ginger, honey, glucose), Natural sweet ginger flavouring."
+			}
+		]
+	},
+	{
+		"name": "Rooibos",
+        "id": 6,
+		"items": [
+			{
+                "id": 7,
+                "name": "Organic Cinnamon Rooibos Chai",
+                "caffiene": ["N"],
+                "ingredients": "Organic rooibos*, Organic cinnamon, Organic apple, Natural cinnamon flavouring."
+			}
+		]
+	},
+	{
+		"name": "Black",
+        "id": 8,
+		"items": [
+			{
+                "id": 9,
+                "name": "Maple Chai",
+                "caffiene": ["L"],
+                "ingredients": "Black tea, Apple, Ginger, Sugars (brown sugar, maple sugar), Natural (ginger, cinnamon) flavouring and artificial maple flavouring, Roasted chicory root, Orange peel, Cinnamon, Cloves, Cardamom, Black pepper."
+			},
+			{
+                "id": 10,
+                "name": "Organic Cream of Earl Grey",
+                "caffiene": ["H"],
+                "ingredients": "Organic black tea, Natural cream of Earl Grey flavouring, Cornflowers, Organic marigolds."
+			}
+		]
+	}
+]

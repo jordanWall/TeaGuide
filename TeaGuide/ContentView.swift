@@ -9,8 +9,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let tea = Bundle.main.decode([TeaSection].self, from: "tea.json")
+    
     var body: some View {
-        Text("Hello, World!")
+        NavigationView{
+            List{
+                ForEach(tea) { section in
+                    Text(section.name)
+                    
+                    ForEach(section.items) { item in
+                        ItemRow(item: item)
+                    }
+                }
+            }
+            .navigationBarTitle("Your Teas")
+        .listStyle(GroupedListStyle())
+        }
     }
 }
 
